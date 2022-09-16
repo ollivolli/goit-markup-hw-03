@@ -38,6 +38,7 @@ ul{
 
 .portfolio-buttons{
     justify-content: center;
+    margin-bottom: 34px;
 }
 
 .portfolio-buttons .btn-portfolio + .btn-portfolio{
@@ -57,10 +58,13 @@ border: 1px solid #EEEEEE;
 .project-descr .text{
     margin-top: 4px;
     margin-bottom: 20px;
+
 }
-.project-item .project-descr{
-    margin-top: 20px;
-    margin-left: 24px;
+
+
+.project-descr{
+    padding-top: 20px;
+    padding-left: 24px;
 }
 .project-item:nth-child(3) {
     margin-right: 0px;
@@ -74,6 +78,7 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     color: var(--primary-text-color);
+    margin: 0;
 }
 
 .list{
@@ -112,8 +117,7 @@ padding-bottom: 24px;
     text-align: center;
 }
 .nav{
-    /* padding-top: 24px;
-    padding-bottom: 25px; */
+
     display: flex;
 
 }
@@ -189,11 +193,7 @@ color: var(--primary-title-color)
 
 }
 
-/* .title-position{
-    width: 696px;
-    display: inline-block;
 
-} */
 
 .button-main{
     font-weight: 700;
@@ -268,7 +268,6 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
-margin-top: 20px;
 }
 
 .text{
@@ -312,6 +311,7 @@ margin-top: 20px;
 .list-team{
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
+background: #FFFFFF;
 }
 
 .footer-logo-link{
@@ -381,9 +381,6 @@ font-style: normal;
     border-radius: 4px;
 }
 
-.padding-projects{
-    padding-top: 34px;
-}
 
 .header-line{
     border-bottom: 1px solid #ECECEC;
@@ -393,4 +390,8 @@ font-style: normal;
 
 .list-team .text{
     margin-bottom: 30px;
+}
+
+.padding-top{
+    padding-top: 0;
 }
